@@ -1,0 +1,541 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5effb">
+
+  <meta name="description"
+    content="A little Diwali letter filled with light, reflection and sincere wishes.">
+
+  <title>A Little Light, A New Beginning</title>
+
+  <!-- Elegant typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Reading progress -->
+  <div class="progress-track">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- Decorative background -->
+  <div class="background-glow"></div>
+  <div class="petal-container" id="petalContainer" aria-hidden="true"></div>
+
+  <!-- Audio control -->
+  <button class="sound-toggle" id="soundToggle"
+    type="button" aria-label="Enable ambient sound"
+    aria-pressed="false">
+    <span id="soundIcon">♫</span>
+    <span id="soundLabel">SOUND OFF</span>
+  </button>
+
+
+  <!-- ==================================
+       OPENING / DIYA EXPERIENCE
+  =================================== -->
+
+  <section class="opening-screen" id="openingScreen">
+
+    <div class="opening-border">
+      <div class="corner corner-tl"></div>
+      <div class="corner corner-tr"></div>
+      <div class="corner corner-bl"></div>
+      <div class="corner corner-br"></div>
+
+      <div class="opening-content">
+
+        <div class="opening-symbol">✦</div>
+
+        <p class="eyebrow">A LITTLE DIWALI MOMENT</p>
+
+        <h1>
+          Before the celebrations,<br>
+          <em>a little light.</em>
+        </h1>
+
+        <p class="opening-description">
+          Every Diwali begins with a light.<br>
+          This one begins with a thoughtful wish.
+        </p>
+
+        <!-- Interactive diya -->
+        <button class="diya-button" id="diyaButton"
+          type="button" aria-label="Light the Diwali diya">
+
+          <span class="diya-aura"></span>
+          <span class="diya-flame" id="diyaFlame"></span>
+
+          <span class="diya-bowl">
+            <span class="diya-wick"></span>
+          </span>
+
+          <span class="diya-base"></span>
+
+        </button>
+
+        <p class="diya-instruction" id="diyaInstruction">
+          Tap the diya to begin
+        </p>
+
+        <p class="opening-footnote">
+          MADE WITH THOUGHT & SINCERITY
+        </p>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ==================================
+       MAIN WEBSITE
+  =================================== -->
+
+  <div class="main-site" id="mainSite" aria-hidden="true" inert>
+
+    <!-- Navigation -->
+    <header class="navigation">
+
+      <a href="#home" class="brand">
+        <span class="brand-icon">✦</span>
+        A LITTLE LIGHT
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#memory">Memory</a>
+        <a href="#letter">The Letter</a>
+        <a href="#wishes">Wishes</a>
+      </nav>
+
+      <span class="nav-festival">DIWALI 2026</span>
+
+    </header>
+
+
+    <main>
+
+      <!-- HERO -->
+      <section class="hero section" id="home">
+
+        <div class="hero-ornament ornament-left">❋</div>
+        <div class="hero-ornament ornament-right">✧</div>
+
+        <div class="hero-content reveal">
+
+          <p class="eyebrow">
+            <span class="tiny-line"></span>
+            A FESTIVE NOTE FOR YOU
+            <span class="tiny-line"></span>
+          </p>
+
+          <p class="script-heading">For Hamsiiii</p>
+
+          <h2>
+            A Little Light,<br>
+            <em>A New Beginning.</em>
+          </h2>
+
+          <p class="hero-description">
+            A small corner of the internet, created with care,
+            to share a sincere thought and a little Diwali happiness.
+          </p>
+
+          <a href="#memory" class="elegant-button">
+            Explore this little space <span>↓</span>
+          </a>
+
+        </div>
+
+        <div class="hero-decoration reveal">
+          <div class="decorative-ring ring-one"></div>
+          <div class="decorative-ring ring-two"></div>
+
+          <div class="hero-flower">
+            <span class="flower-petal p1"></span>
+            <span class="flower-petal p2"></span>
+            <span class="flower-petal p3"></span>
+            <span class="flower-petal p4"></span>
+            <span class="flower-petal p5"></span>
+            <span class="flower-petal p6"></span>
+            <span class="flower-center"></span>
+          </div>
+
+          <span class="flower-caption">A MOMENT OF LIGHT</span>
+        </div>
+
+        <div class="hero-bottom">
+          <span>MADE WITH SINCERITY</span>
+          <span>SCROLL GENTLY ↓</span>
+        </div>
+
+      </section>
+
+
+      <!-- INTRODUCTION -->
+      <section class="introduction section reveal">
+
+        <div class="ornament-divider">
+          <span></span>
+          <i>✦</i>
+          <span></span>
+        </div>
+
+        <p class="eyebrow">A THOUGHT TO BEGIN WITH</p>
+
+        <h2>
+          Some things are better expressed<br>
+          <em>with a little thought.</em>
+        </h2>
+
+        <p class="body-copy">
+          Festivals are beautiful reminders to pause,
+          reflect, appreciate the people who have been
+          part of our lives, and welcome brighter days
+          with a little more understanding.
+        </p>
+
+      </section>
+
+
+      <!-- MEMORY -->
+      <section class="memory-section section" id="memory">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">A MEMORY PRESERVED</p>
+          <h2>A little piece of <em>yesterday.</em></h2>
+          <p class="body-copy">
+            Some moments are worth remembering,
+            simply for what they meant.
+          </p>
+        </div>
+
+        <div class="memory-layout reveal">
+
+          <div class="memory-side-note">
+            <span class="side-star">✧</span>
+            <p>A photograph.</p>
+            <p>A moment.</p>
+            <p>A memory.</p>
+          </div>
+
+          <button class="photo-card" id="photoButton"
+            type="button" aria-label="Open photograph">
+
+            <div class="photo-border">
+              <img
+                src="images/our-memory.jpeg"
+                alt="A shared memory"
+                class="memory-photo"
+                id="memoryPhoto"
+              >
+              <span class="photo-zoom">↗ VIEW PHOTO</span>
+            </div>
+
+            <div class="photo-card-caption">
+              <span>A MOMENT TO REMEMBER</span>
+              <span>✦</span>
+            </div>
+
+          </button>
+
+          <div class="memory-side-note right-note">
+            <span class="side-star">✧</span>
+            <p>Held with</p>
+            <p>gratitude</p>
+            <p>and respect.</p>
+          </div>
+
+        </div>
+
+        <p class="memory-footer reveal">
+          Not every memory needs an explanation.
+        </p>
+
+      </section>
+
+
+      <!-- LETTER INTRO -->
+      <section class="letter-section section" id="letter">
+
+        <div class="section-heading reveal">
+
+          <p class="eyebrow">A PERSONAL NOTE</p>
+
+          <h2>
+            A few words,<br>
+            <em>from the heart.</em>
+          </h2>
+
+          <p class="body-copy">
+            Whenever you're ready, there's a little letter here.
+          </p>
+
+        </div>
+
+
+        <!-- Envelope interaction -->
+        <div class="envelope-area reveal">
+
+          <div class="envelope-wrapper" id="envelopeWrapper">
+
+            <div class="envelope-back"></div>
+
+            <article class="letter-paper" id="letterPaper">
+
+              <div class="paper-decoration">✦</div>
+
+              <p class="paper-eyebrow">A LETTER FOR YOU</p>
+
+              <h3>Oyee Hamsiiii,</h3>
+
+              <div class="paper-preview">
+                A little note of reflection,
+                understanding and heartfelt wishes...
+              </div>
+
+              <span class="paper-seal">✦</span>
+
+            </article>
+
+            <div class="envelope-front"></div>
+
+            <div class="envelope-flap" id="envelopeFlap"></div>
+
+            <div class="envelope-seal">✦</div>
+
+          </div>
+
+          <button class="open-letter-button" id="openLetterButton"
+            type="button" aria-expanded="false"
+            aria-controls="fullLetter">
+
+            <span id="envelopeButtonText">Open your letter</span>
+            <span>↗</span>
+
+          </button>
+
+          <p class="envelope-hint" id="envelopeHint">
+            A little note, waiting to be opened.
+          </p>
+
+        </div>
+
+
+        <!-- Full letter -->
+        <article class="full-letter" id="fullLetter" hidden>
+
+          <div class="full-letter-border">
+
+            <div class="letter-header">
+              <span>PERSONAL LETTER</span>
+              <span>DIWALI · 2026</span>
+            </div>
+
+            <div class="full-letter-content">
+
+              <div class="letter-flower">❋</div>
+
+              <p class="letter-date">A FESTIVE NOTE</p>
+
+              <h3>Oyee Hamsiiii,</h3>
+
+              <p>
+                On this Diwali, I wanted to take a moment
+                to share a few words with you. Nothing
+                complicated — just something sincere.
+              </p>
+
+              <p>
+                I'm genuinely sorry for the times my words
+                or actions may have hurt you, made you feel
+                misunderstood, or left you feeling that your
+                space and individuality were not respected.
+                I know that good intentions do not automatically
+                undo the impact of our actions.
+              </p>
+
+              <p>
+                I've been reflecting on how important it is
+                to listen, understand, respect boundaries,
+                and recognise that caring about someone
+                doesn't mean expecting them to live or feel
+                in a particular way.
+              </p>
+
+              <p>
+                I cannot rewrite the past, and I don't want
+                to make grand promises just for the sake
+                of saying them. I can only acknowledge my
+                part, learn from it, and try to become more
+                thoughtful in the way I treat people.
+              </p>
+
+              <p>
+                I truly hope this Diwali brings you happiness,
+                peace, good health, exciting opportunities,
+                and countless little reasons to smile.
+                May the coming days be full of warmth and
+                beautiful experiences.Dont worry I Know what you are 
+                and the way you have always been with a lamp for me 
+                in my worst times and similarly I aint leaving you tho 
+                in this roughest phase. Once I told you and I truly Mean it.
+                Once Again I'm Really Sorryy For everything and yeah Thank youu soo muchh 
+                for trusting or putting a step forward after all this. 
+              </p>
+
+              <p>
+                This little website is simply a festive
+                gesture and a sincere wish. There's no
+                expectation of a reply, an explanation,
+                or forgiveness. Your feelings, choices,
+                and space deserve to be respected.
+              </p>
+
+              <p class="letter-final">
+                May our world always have a little more
+                light than yesterday. Hope this becomes 
+                the best beginning we always wanted !!
+              </p>
+
+              <div class="letter-signature">
+                <span> Regards,</span>
+                <strong>Worlduuu</strong>
+              </div>
+
+            </div>
+
+            <div class="letter-footer">
+              <span>WRITTEN WITH CARE</span>
+              <span>✦</span>
+              <span>A LITTLE LIGHT, A NEW BEGINNING</span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </section>
+
+
+      <!-- DIWALI WISHES -->
+      <section class="wishes-section section" id="wishes">
+
+        <div class="wish-decoration reveal">
+          <span>✦</span>
+          <span>✧</span>
+          <span>✦</span>
+        </div>
+
+        <div class="section-heading reveal">
+
+          <p class="eyebrow">A WISH FOR YOUR DIWALI</p>
+
+          <h2>
+            May life bring you<br>
+            <em>beautiful beginnings.</em>
+          </h2>
+
+          <p class="body-copy">
+            May every little light remind you that
+            hope, happiness and growth can always
+            find their way into our lives.
+          </p>
+
+        </div>
+
+
+        <div class="wish-cards reveal">
+
+          <div class="wish-card">
+            <span>✧</span>
+            <h3>Peace</h3>
+            <p>For a calm heart and peaceful days.</p>
+          </div>
+
+          <div class="wish-card">
+            <span>❋</span>
+            <h3>Happiness</h3>
+            <p>For little moments that make life beautiful.</p>
+          </div>
+
+          <div class="wish-card">
+            <span>✦</span>
+            <h3>Possibilities</h3>
+            <p>For new opportunities and brighter tomorrows.</p>
+          </div>
+
+        </div>
+
+
+        <!-- Final diya -->
+        <div class="final-diya reveal">
+          <div class="final-flame"></div>
+          <div class="final-bowl"></div>
+          <div class="final-base"></div>
+        </div>
+
+        <p class="final-message reveal">
+          Happy Diwali, Hamsiiii.
+        </p>
+
+        <p class="final-submessage reveal">
+          No expectations. No pressure.<br>
+          Just a sincere wish for happiness and light.
+        </p>
+
+      </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+      <div class="footer-symbol">✦</div>
+
+      <p>A LITTLE LIGHT, A NEW BEGINNING</p>
+
+      <span>CREATED WITH CARE · DIWALI 2026</span>
+
+    </footer>
+
+  </div>
+
+
+  <!-- PHOTO LIGHTBOX -->
+  <div class="lightbox" id="lightbox"
+    role="dialog" aria-modal="true"
+    aria-label="Photograph preview" hidden>
+
+    <button class="lightbox-close" id="lightboxClose"
+      type="button" aria-label="Close photograph">×</button>
+
+    <img src="" alt="Expanded shared memory" id="lightboxImage">
+
+    <p>A MOMENT TO REMEMBER ✦</p>
+
+  </div>
+
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop"
+    type="button" aria-label="Back to top">
+    ↑
+  </button>
+
+</body>
+</html>
